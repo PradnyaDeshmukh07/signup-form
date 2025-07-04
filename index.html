@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Create an Account</title>
+  <link rel="stylesheet" href="sty;e.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-card">
+      <div class="profile-circle"></div>
+      <h2>Create an Account</h2>
+      <p class="sub-text">Already have an account? <a href="#">Log in</a></p>
+
+      <div class="radio-group">
+        <label><input type="radio" name="account-type" checked> For personal</label>
+        <label><input type="radio" name="account-type"> For business</label>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country of Residence</label>
+        <select id="country">
+          <option value="">Select your country</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="ca">Canada</option>
+        </select>
+      </div>
+
+      <button class="disabled-btn" disabled>Create an Account</button>
+
+      <p class="social-text">Or, continue with <a href="#">Google</a> or <a href="#">Facebook</a></p>
+    </div>
+  </div>
+</body>
+</html>

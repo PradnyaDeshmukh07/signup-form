@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url("bg.jpg") center center / cover no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-card {
+  background-color: #fff;
+  padding: 32px 24px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.profile-circle {
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.sub-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sub-text a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.disabled-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: not-allowed;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.social-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.social-text a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
